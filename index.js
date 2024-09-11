@@ -18,7 +18,7 @@ await db.exec(`
   CREATE TABLE IF NOT EXISTS messages (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     client_offset TEXT UNIQUE,
-    context TEXT,
+    context TEXT
   );
 `);
 
